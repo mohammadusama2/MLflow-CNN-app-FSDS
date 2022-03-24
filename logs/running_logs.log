@@ -1,0 +1,60 @@
+[2022-03-25 04:13:37,813: INFO: stage_01_get_data]: 
+********************
+[2022-03-25 04:13:37,813: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-25 04:13:37,817: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-25 04:13:37,817: ERROR: stage_01_get_data]: 'data'
+Traceback (most recent call last):
+  File "src/stage_01_get_data.py", line 48, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "src/stage_01_get_data.py", line 24, in main
+    URL = config["data"]["source_url"]
+KeyError: 'data'
+[2022-03-25 04:20:59,023: INFO: stage_01_get_data]: 
+********************
+[2022-03-25 04:20:59,024: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-25 04:20:59,034: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-25 04:20:59,035: INFO: common]: created directory at: data
+[2022-03-25 04:23:03,968: INFO: stage_01_get_data]: filrname:data\data.zip created with info 
+Content-Type: application/octet-stream
+Accept-Ranges: bytes
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-blob-content-md5: l2WJyK3tt5/f2azyQ9eE8w==
+Last-Modified: Sat, 13 Oct 2018 12:14:22 GMT
+ETag: "0x8D6310568FD1DF6"
+Content-Length: 824894548
+Date: Thu, 24 Mar 2022 22:51:01 GMT
+Connection: close
+
+
+[2022-03-25 04:23:03,976: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-25 04:23:03,976: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
+
+[2022-03-25 04:31:48,546: INFO: stage_01_get_data]: 
+********************
+[2022-03-25 04:31:48,546: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-25 04:31:48,548: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-25 04:31:48,548: INFO: common]: created directory at: data
+[2022-03-25 04:33:53,122: INFO: stage_01_get_data]: filrname:data\data.zip created with info 
+Content-Type: application/octet-stream
+Accept-Ranges: bytes
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0
+x-ms-blob-content-md5: l2WJyK3tt5/f2azyQ9eE8w==
+Last-Modified: Sat, 13 Oct 2018 12:14:22 GMT
+ETag: "0x8D6310568FD1DF6"
+Content-Length: 824894548
+Date: Thu, 24 Mar 2022 23:01:50 GMT
+Connection: close
+
+
+[2022-03-25 04:33:53,123: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-03-25 04:33:53,123: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
+
+[2022-03-25 04:35:43,269: INFO: stage_01_get_data]: 
+********************
+[2022-03-25 04:35:43,269: INFO: stage_01_get_data]: >>>>> stage GET_DATA started <<<<<
+[2022-03-25 04:35:43,271: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-03-25 04:35:43,271: INFO: common]: created directory at: data
+[2022-03-25 04:35:43,271: INFO: stage_01_get_data]: Downloading started...
+[2022-03-25 04:35:43,271: INFO: stage_01_get_data]: filename:data.zip already present
+[2022-03-25 04:35:43,271: INFO: stage_01_get_data]: >>>>> stage GET_DATA completed!<<<<<
+
