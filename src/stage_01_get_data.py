@@ -6,6 +6,9 @@ import logging
 from src.utils.common import read_yaml, create_directories, unzip_file
 import random
 import urllib.request as req
+from src.utils.common import create_directories
+from src.utils.data_mgmt import validate_image
+
 
 
 STAGE = "GET_DATA" ## <<< change stage name 
@@ -41,6 +44,10 @@ def main(config_path):
     unzip_data_dir = config["data"]["unzip_data_dir"]
     create_directories([unzip_data_dir])
     unzip_file(source=data_file_path, dest=unzip_data_dir)    
+
+
+    # validating data
+    validate_image(config)
 
   
 
